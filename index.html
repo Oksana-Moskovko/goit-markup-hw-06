@@ -33,12 +33,73 @@
                     <li class="address-item"><a class="address-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
                 </ul>
             </address>
+            <button class="burger-btn" type="button" data-menu-open>
+                <svg class="burger-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-menu"></use>
+                </svg> 
+            </button>
+        </div>
+
+        <div class="mobile-menu" data-menu>
+            <div class="container mobile-menu-container">
+                <button class="mobile-menu-close" type="button" data-menu-close>
+                    <svg class="icon-close" width="8" height="8">
+                    <use href="./images/icons.svg#icon-close"></use>
+                  </svg>
+                </button>
+                <nav class="mobile-menu-nav">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a class="nav-link current" href="./index.html">Studio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Contacts</a></li>
+                    </ul>
+                </nav>
+                <address class="address-section">
+                    <ul class="address-list">
+                        <li class="address-item"><a class="address-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        <li class="address-item"><a class="address-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                    </ul>
+                </address>
+                <div>
+                    <ul class="icons-list">
+                        <li class="icon-list-link">
+                            <a class="icon-link" href="">
+                                <svg class="icon" width="16" height="16">
+                                  <use href="./images/icons.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="icon-list-link">
+                            <a class="icon-link" href="">
+                                <svg class="icon" width="16" height="16">
+                                  <use href="./images/icons.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="icon-list-link">
+                            <a class="icon-link" href="">
+                                <svg class="icon" width="16" height="16">
+                                  <use href="./images/icons.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="icon-list-link">
+                            <a class="icon-link" href="">
+                                <svg class="icon" width="16" height="16">
+                                  <use href="./images/icons.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
 
     
     </header>
 
-    <main> 
+    <!-- <main> 
         <section class="main-page">
           <div class="container">
             <h1 class="page-title">Effective Solutions for Your Business</h1>
@@ -318,9 +379,9 @@
             </div>
         </section>
         
-    </main>
+    </main> -->
     
-    <footer class="footer">
+    <!-- <footer class="footer">
         <div class="container footer-container">
             <div class="footer-div">
                 <a class="logo-link footer-logo" href="./index.html">
@@ -377,7 +438,7 @@
             </div>
         </div>  
     </footer>
-    
+     -->
     <div class="backdrop" data-modal>
         <div class="nodal">
             <button class="btn-close" type="button" data-modal-close>
@@ -450,5 +511,6 @@
     </div>
 
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 </html>
