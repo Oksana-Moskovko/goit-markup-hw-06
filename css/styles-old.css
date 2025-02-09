@@ -15,79 +15,10 @@
     
 }
 
-
-/* content-section section 2 */
-
-.icon-benefits {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 112px;
-  border: 1px solid #8e8f99;
-  background-color: #f4f4fd;
-  border-radius: 4px;
-  margin-bottom: 8px;
-}
-
-.section-list {
-  display: flex;
-  gap: 24px;
-}
-
-.content-section {
-  padding: 120px 0;
-}
-
-.retreat {
-  margin-bottom: 8px;
-}
-
-.section-item {
-  width: calc((100% - 72px) / 4);
-}
-
-.title-benefits {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #2e2f42;
-}
-
-.benefits-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-.profession-team.retreat-team {
-  margin-bottom: 8px;
-}
-
-/*our-team 3*/
-
-.team-title {
-  margin-bottom: 72px;
-}
-
-.section-list-team {
-  display: flex;
-  gap: 24px;
-}
-
-.our-team {
-  background-color: #F4F4FD ;
-  padding: 120px 0;
-}
-
-.our-team-list {
-  display: block;
-  border-radius: 0 0 4px 4px;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  width: calc((100% - 72px ) / 4);
-  background-color: #FFFF;
+/* section 4 Our Portfolio*/
+.section-our-portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .section-title {
@@ -96,65 +27,9 @@
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
+  color: #2e2f42;
+
   text-transform: capitalize;
-  color: #2e2f42;
-}
-
-.section-team {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.title-retreat {
-  margin-bottom: 8px;
-}
-
-.card-content {
-  padding: 32px 0;
-  text-align: center;
-
-  border-radius: 0 0 4px 4px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-}
-
-.icon-link {
-  background-color: #4d5ae5;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.icon-link:hover,
-.icon-link:focus {
-  background-color: #404bbf;
-}
-
-.icons-list {
-  display: flex;
-  gap: 24px;
-  justify-content: center;
-}
-
-.icon-list-link {
-  width: 40px;
-  height: 40px;
-}
-
-.icon {
-  fill: #f4f4fd;
-}
-
-/* section 4 Our Portfolio*/
-.section-our-portfolio {
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .our-portfolio {
@@ -336,15 +211,7 @@
 
 /* backdrop */
 
-
-
-
-
 .nodal {
   top: 50%;
-  padding: 72px 24px 24px 24px;  
-  width: 408px;
-  min-height: 584px;
-
  transform: translate(-50%, -50%); 
 }
