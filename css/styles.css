@@ -345,7 +345,7 @@ button {
       rgba(46, 47, 66, 0.7), 
       rgba(46, 47, 66, 0.7)
       ), 
-      url(../images/people-office-mob-min.jpg);
+      url(../images/background/people-office-mob-min.jpg);
       
     background-size: cover;
     background-position: center;
@@ -356,7 +356,7 @@ button {
             rgba(46, 47, 66, 0.7), 
             rgba(46, 47, 66, 0.7)
           ),
-          url(../images/people-office-mob@2x-min.jpg);
+          url(../images/background/people-office-mob@2x-min.jpg);
         }
 }
 
@@ -410,7 +410,7 @@ button {
             rgba(46, 47, 66, 0.7), 
             rgba(46, 47, 66, 0.7)
             ), 
-            url(../images/people-office-tab-min.jpg);
+            url(../images/background/people-office-tab-min.jpg);
     } 
 
     @media screen and (min-resolution: 2x), (-webkit-min-device-pixel-ratio: 2x) {
@@ -418,7 +418,7 @@ button {
             rgba(46, 47, 66, 0.7), 
             rgba(46, 47, 66, 0.7)
           ),
-          url(../images/people-office-tab@2x-min.jpg);
+          url(../images/background/people-office-tab@2x-min.jpg);
         }
     }
 
@@ -439,7 +439,7 @@ button {
             rgba(46, 47, 66, 0.7), 
             rgba(46, 47, 66, 0.7)
             ), 
-            url(../images/people-office-min.jpg);
+            url(../images/background/people-office-min.jpg);
     } 
 
     @media screen and (min-resolution: 2x), (-webkit-min-device-pixel-ratio: 2x) {
@@ -448,7 +448,7 @@ button {
                 rgba(46, 47, 66, 0.7), 
                 rgba(46, 47, 66, 0.7)
                 ),
-                url(../images/people-office-2x-min.jpg);
+                url(../images/background/people-office-2x-min.jpg);
         }
     }
 
@@ -784,17 +784,6 @@ button {
     width: 288px;
 }
 
-@media screen and (max-width: 768px) {
-    .container-social {
-        margin: 0 auto;
-        text-align: center;
-    }
-
-    .container-subscribe {
-        justify-self: start;
-    }
-}
-
 .footer-media {
     font-weight: 500;
     color: #FFFFFF;
@@ -831,9 +820,19 @@ button {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .btn-subscribe {
         margin: 0 auto;
+        margin-top: 16px; 
+    }
+
+    .container-social {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .container-subscribe {
+        justify-self: start;
     }
 }
 
@@ -852,7 +851,6 @@ button {
     color: #ffffff;
     
     padding: 8px 16px;
-    margin-bottom: 16px;
 }
   
 .icon-button {
@@ -862,6 +860,7 @@ button {
 
 @media screen and (min-width: 768px) {
     .footer-container {
+        padding: 0 108px;
         column-gap: 24px;
         align-items: baseline;
     }
@@ -894,6 +893,7 @@ button {
     }
 
     .footer-container {
+        padding: 0;
         gap: 0;
     }
 
@@ -910,14 +910,18 @@ button {
         background-color: #31d0aa;
     }
 
-    .footer-input:hover::placeholder,
-    .footer-input:focus::placeholder {
+    .footer-input:hover,
+    .footer-input:focus {
+        border-color: #31d0aa;
+    }
+
+    .footer-input:hover::placeholder {
         color: #31d0aa;
     }
 
     .btn-subscribe:hover, 
     .btn-subscribe:focus {
-        background-color: #404BBF;
+        background-color: #31d0aa;
     }
 }
 
@@ -1157,7 +1161,6 @@ input[type="checkbox"]:checked + .checkbox-label .checkbox {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
     border: none;
-    cursor: pointer;
   
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
