@@ -160,7 +160,12 @@
 
                 <h2 class="section-title team-title">Our Team</h2>
                 <ul class="section-list-team">
-                    <li class="our-team-list"><img src="./images/img1-min.jpg" alt="men Mark Guerrero Product Designer" width="264" height="260"/>
+                    <li class="our-team-list">
+                        <img 
+                        srcset="./images/team/team-1-min.jpg 1x, ./images/team/team-1@2x-min.jpg 2x"
+                        src="./images/team/team-1-min.jpg" 
+                        alt="men Mark Guerrero Product Designer" width="264" height="260"
+                        />
                         <div class="card-content">
                             <h3 class="section-team title-retreat">Mark Guerrero</h3>
                             <p class="profession-team retreat-team">Product Designer</p>
@@ -197,7 +202,12 @@
                         </div>
                     </li>
     
-                    <li class="our-team-list"><img src="./images/img2-min.jpg" alt="men Tom Ford Frontend Developer" width="264" height="260"/>
+                    <li class="our-team-list">
+                        <img 
+                        srcset="./images/team/team-2-min.jpg 1x, ./images/team/team-2@2x-min.jpg 2x"
+                        src="./images/team/team-2-min.jpg" 
+                        alt="men Mark Guerrero Product Designer" width="264" height="260"
+                        />
                         <div class="card-content">
                             <h3 class="section-team title-retreat">Tom Ford</h3>
                             <p class="profession-team retreat-team">Frontend Developer</p>
@@ -234,7 +244,12 @@
                         </div>
                     </li>
     
-                    <li class="our-team-list"><img src="./images/img3-min.jpg" alt="women Camila Garcia Marketing" width="264" height="260" />
+                    <li class="our-team-list">
+                        <img 
+                        srcset="./images/team/team-3-min.jpg 1x, ./images/team/team-3@2x-min.jpg 2x"
+                        src="./images/team/team-3-min.jpg" 
+                        alt="men Mark Guerrero Product Designer" width="264" height="260"
+                        />
                         <div class="card-content">
                             <h3 class="section-team title-retreat">Camila Garcia</h3>
                             <p class="profession-team retreat-team">Marketing</p>
@@ -271,7 +286,12 @@
                         </div>
                     </li>
     
-                    <li class="our-team-list"><img src="./images/img4-min.jpg" alt="men Daniel Wilson UI Designer" width="264" height="260" />
+                    <li class="our-team-list">
+                        <img 
+                        srcset="./images/team/team-4-min.jpg 1x, ./images/team/team-4@2x-min.jpg 2x"
+                        src="./images/team/team-4-min.jpg" 
+                        alt="men Mark Guerrero Product Designer" width="264" height="260"
+                        />
                         <div class="card-content">
                             <h3 class="section-team title-retreat">Daniel Wilson</h3>
                             <p class="profession-team retreat-team">UI Designer</p>
@@ -317,7 +337,35 @@
                 <ul class="our-portfolio">
                     <li class="project-card">
                         <div class="images-project">
-                            <img src="./images/img5-min.jpg" alt="banking app screen" width="360" height="300"/>
+                            <picture>
+                                <source 
+                                    media="(min-width: 1158px)" 
+                                    srcset="
+                                        ./images/portfolio/portfolio-1-min.jpg 1x,
+                                        ./images/portfolio/portfolio-1@2x-min.jpg 2x
+                                    "
+                                />
+                                
+                                <source 
+                                    media="(min-width: 768px)" 
+                                    srcset="
+                                        ./images/portfolio/portfolio-tab-1-min.jpg 1x,
+                                        ./images/portfolio/portfolio-tab-1@2x-min.jpg 2x
+                                    "
+                                />
+
+                                <source 
+                                    media="(max-width: 768px)" 
+                                    srcset="
+                                        ./images/portfolio/portfolio-mob-1-min.jpg 1x,
+                                        ./images/portfolio/portfolio-mob-1@2x-min.jpg 2x
+                                    "
+                                />
+
+                                <img src="./images/portfolio/portfolio-1-min.jpg" alt="banking app screen" width="360" height="300"/>
+
+                            </picture>
+                            
                             <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                         </div>
                         <div class="card-content-project">
@@ -327,7 +375,35 @@
                     </li>
                     <li class="project-card">
                         <div class="images-project">
-                            <img src="./images/img6-min.jpg" alt="phone scans QR code" width="360" height="300"/>
+                            <picture>
+                                <source 
+                                    media="(min-width: 1158px)" 
+                                    srcset="
+                                        ./images/portfolio/portfolio-2-min.jpg 1x,
+                                        ./images/portfolio/portfolio-2@2x-min.jpg 2x
+                                    "
+                                />
+                                
+                                <source 
+                                    media="(min-width: 768px)" 
+                                    srcset="
+                                        ./images/portfolio/portfolio-tab-2-min.jpg 1x,
+                                        ./images/portfolio/portfolio-tab-2@2x-min.jpg 2x
+                                    "
+                                />
+
+                                <source 
+                                    media="(max-width: 768px)" 
+                                    srcset="
+                                        ./images/portfolio/portfolio-mob-2-min.jpg 1x,
+                                        ./images/portfolio/portfolio-mob-2@2x-min.jpg 2x
+                                    "
+                                />
+
+                                <img src="./images/portfolio/portfolio-2-min.jpg" alt="phone scans QR code" width="360" height="300"/>
+
+                            </picture>
+
                             <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                         </div>
                         <div class="card-content-project">
@@ -337,7 +413,35 @@
                     </li>
                     <li class="project-card">
                         <div class="images-project">
-                            <img src="./images/img7-min.jpg" alt="laptop and phone" width="360" height="300"/>
+                            <picture>
+                                <source 
+                                    media="(min-width: 1158px)" 
+                                    srcset="
+                                        ./images/portfolio/portfolio-3-min.jpg 1x,
+                                        ./images/portfolio/portfolio-3@2x-min.jpg 2x
+                                    "
+                                />
+                                
+                                <source 
+                                    media="(min-width: 768px)" 
+                                    srcset="
+                                        ./images/portfolio/portfolio-tab-3-min.jpg 1x,
+                                        ./images/portfolio/portfolio-tab-3@2x-min.jpg 2x
+                                    "
+                                />
+
+                                <source 
+                                    media="(max-width: 768px)" 
+                                    srcset="
+                                        ./images/portfolio/portfolio-mob-3-min.jpg 1x,
+                                        ./images/portfolio/portfolio-mob-3@2x-min.jpg 2x
+                                    "
+                                />
+
+                                <img src="./images/portfolio/portfolio-3-min.jpg" alt="laptop and phone" width="360" height="300"/>
+
+                            </picture>
+
                             <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                         </div>
                         <div class="card-content-project">
@@ -347,7 +451,35 @@
                     </li>
                     <li class="project-card">
                         <div class="images-project">
-                            <img src="./images/img8-min.jpg" alt="hands on the wheel" width="360" height="300"/>
+                            <picture>
+                                <source 
+                                    media="(min-width: 1158px)" 
+                                    srcset="
+                                        ./images/portfolio/portfolio-4-min.jpg 1x,
+                                        ./images/portfolio/portfolio-4@2x-min.jpg 2x
+                                    "
+                                />
+                                
+                                <source 
+                                    media="(min-width: 768px)" 
+                                    srcset="
+                                        ./images/portfolio/portfolio-tab-4-min.jpg 1x,
+                                        ./images/portfolio/portfolio-tab-4@2x-min.jpg 2x
+                                    "
+                                />
+
+                                <source 
+                                    media="(max-width: 768px)" 
+                                    srcset="
+                                        ./images/portfolio/portfolio-mob-4-min.jpg 1x,
+                                        ./images/portfolio/portfolio-mob-4@2x-min.jpg 2x
+                                    "
+                                />
+
+                                <img src="./images/portfolio/portfolio-4-min.jpg" alt="hands on the wheel" width="360" height="300"/>
+
+                            </picture>
+
                             <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                         </div>
                         <div class="card-content-project">
@@ -357,7 +489,35 @@
                     </li>
                     <li class="project-card">
                         <div class="images-project">
-                            <img src="./images/img9-min.jpg" alt="phone screen" width="360" height="300"/>
+                            <picture>
+                                <source 
+                                    media="(min-width: 1158px)" 
+                                    srcset="
+                                        ./images/portfolio/portfolio-5-min.jpg 1x,
+                                        ./images/portfolio/portfolio-5@2x-min.jpg 2x
+                                    "
+                                />
+                                
+                                <source 
+                                    media="(min-width: 768px)" 
+                                    srcset="
+                                        ./images/portfolio/portfolio-tab-5-min.jpg 1x,
+                                        ./images/portfolio/portfolio-tab-5@2x-min.jpg 2x
+                                    "
+                                />
+
+                                <source 
+                                    media="(max-width: 768px)" 
+                                    srcset="
+                                        ./images/portfolio/portfolio-mob-5-min.jpg 1x,
+                                        ./images/portfolio/portfolio-mob-5@2x-min.jpg 2x
+                                    "
+                                />
+
+                                <img src="./images/portfolio/portfolio-5-min.jpg" alt="phone screen" width="360" height="300"/>
+
+                            </picture>
+
                             <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                         </div>
                         <div class="card-content-project">
@@ -367,7 +527,35 @@
                     </li>
                     <li class="project-card">
                         <div class="images-project">
-                            <img src="./images/img10-min.jpg" alt="girl in headphones looking at phone" width="360" height="300"/>
+                            <picture>
+                                <source 
+                                    media="(min-width: 1158px)" 
+                                    srcset="
+                                        ./images/portfolio/portfolio-6-min.jpg 1x,
+                                        ./images/portfolio/portfolio-6@2x-min.jpg 2x
+                                    "
+                                />
+                                
+                                <source 
+                                    media="(min-width: 768px)" 
+                                    srcset="
+                                        ./images/portfolio/portfolio-tab-6-min.jpg 1x,
+                                        ./images/portfolio/portfolio-tab-6@2x-min.jpg 2x
+                                    "
+                                />
+
+                                <source 
+                                    media="(max-width: 768px)" 
+                                    srcset="
+                                        ./images/portfolio/portfolio-mob-6-min.jpg 1x,
+                                        ./images/portfolio/portfolio-mob-6@2x-min.jpg 2x
+                                    "
+                                />
+
+                                <img src="./images/portfolio/portfolio-6-min.jpg" alt="girl in headphones looking at phone" width="360" height="300"/>
+
+                            </picture>
+
                             <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                         </div>
                         <div class="card-content-project">
